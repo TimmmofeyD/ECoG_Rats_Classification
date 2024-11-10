@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="logos">
+    <file>Icons/material_design/downloading.png</file>
+    <file>Icons/feather/arrow-down-right.png</file>
+    <file>Icons/material_design/auto_fix_high.png</file>
+    <file>Icons/font_awesome/solid/chart-column.png</file>
+    <file>Icons/font_awesome/solid/xmark.png</file>
+    <file>Icons/font_awesome/solid/minus.png</file>
+    <file>Icons/feather/square.png</file>
+    <file>Icons/feather/activity.png</file>
+    <file>Icons/feather/menu.png</file>
+  </qresource>
+  <qresource prefix="appIcon">
+    <file>free-icon-research-7243666 (2).png</file>
+  </qresource>
+</RCC>

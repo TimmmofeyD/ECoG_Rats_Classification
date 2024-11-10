@@ -1,0 +1,117 @@
+
+QMainWindow, #centralwidget{
+    background-color: $COLOR_BACKGROUND_1;
+}
+
+#menuButton{
+    padding: 6px 6px;
+    border-radius: 6px;
+    background-color: $COLOR_BACKGROUND_1;
+}
+#menuButton:hover{background-color: $COLOR_BACKGROUND_3;}
+#menuButton:pressed{background-color: $COLOR_BACKGROUND_4;}
+
+#closeBtn{
+    padding: 6px 6px;
+    border-radius: 6px;
+    background-color: $COLOR_BACKGROUND_1;
+}
+#closeBtn:hover{background-color: $COLOR_BACKGROUND_3;}
+#closeBtn:pressed{background-color: $COLOR_BACKGROUND_4;}
+
+#resizeBtn{
+    padding: 6px 6px;
+    border-radius: 6px;
+    background-color: $COLOR_BACKGROUND_1;
+}
+#resizeBtn:hover{background-color: $COLOR_BACKGROUND_3;}
+#resizeBtn:pressed{background-color: $COLOR_BACKGROUND_4;}
+
+#minimizeBtn{
+    padding: 6px 6px;
+    border-radius: 6px;
+    background-color: $COLOR_BACKGROUND_1;
+}
+#minimizeBtn:hover{background-color: $COLOR_BACKGROUND_3;}
+#minimizeBtn:pressed{background-color: $COLOR_BACKGROUND_4;}
+
+#leftMenu{
+    & QWidget{
+        background-color: transparent;
+    }
+    background-color: $COLOR_BACKGROUND_1;
+    padding-top: 10px;
+    border-right: 3px solid $COLOR_BACKGROUND_3;
+}
+
+#header{
+    & QWidget{
+        background-color: transparent;
+    }
+    background-color: $COLOR_BACKGROUND_1;
+    padding-top: 8px;
+    border-bottom: 2px solid $COLOR_BACKGROUND_3;
+}
+
+#mainContent{
+    background-color: transparent;
+    border: none;
+    QStackedWidget{
+        background-color: transparent;
+        border: none;
+    }
+    #graphics, #none_graphics{
+        background-color: $COLOR_BACKGROUND_2;
+        border-radius: 10px;
+        *, QWidgets{
+            background-color: transparent;
+            border: none;
+        }
+        QPushButton{
+            padding: 6px 8px;
+            border-radius: 12px;
+            background-color: #E3E3E3;
+            color: $COLOR_BACKGROUND_2;
+        }
+        QPushButton:hover {
+            background-color: #B4B4B4;
+            color: black;
+        }
+        QPushButton:pressed {
+            background-color: #A1A1A1;
+            color: black;
+        }
+    }
+    #ECS{
+        background-color: $COLOR_BACKGROUND_2;
+        border-radius: 10px;
+        QLabel, QWidgets, QFrame{
+            background-color: transparent;
+            border: none;
+        }
+        QLineEdit{
+            background-color: #E3E3E3;
+            border: 0px;
+            border-radius: 16px;
+            padding-left: 12px;
+            color: $COLOR_BACKGROUND_2;
+            }
+        QLineEdit::placeholder {
+        color: #707070;
+        }
+        QPushButton{
+            padding: 6px 8px;
+            border-radius: 14px;
+            background-color: #E3E3E3;
+            color: $COLOR_BACKGROUND_2;
+        }
+        QPushButton:hover {
+            background-color: #B4B4B4;
+            color: black;
+        }
+        QPushButton:pressed {
+            background-color: #A1A1A1;
+            color: black;
+        }
+    }
+}

@@ -1,0 +1,124 @@
+{
+  "QtBinding": "PySide6",
+  "ShowLogs": true,
+  "QMainWindow": [
+    {
+      "tittle": "Electrocorticogram Classification System",
+      "icon": "Qss/icons/appIcon.png",
+      "frameless": true,
+      "transluscentBg": true,
+      "sizeGrip": "sizeGrip",
+      "navigation": [
+        {
+          "minimize": "minimizeBtn",
+          "close": "closeBtn",
+          "moveWindow": "header",
+          "tittleBar": "header",
+          "restore": [
+            {
+              "buttonName": "resizeBtn",
+              "normalIcon": "Qss/icons/Icons/feather/square.png",
+              "maximizedIcon": "Qss/icons/Icons/feather/copy.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "QSettings": [
+    {
+      "ThemeSettings": [
+        {
+          "CustomTheme": [
+            {
+              "Background-color": "#16181b",
+              "Text-color": "#FFFFFF",
+              "Accent-color": "#772a8f",
+              "Icons-color": "#FFFFFF",
+              "Theme-name": "Default-theme",
+              "Default-Theme": true
+            }
+          ]
+        }
+      ],
+      "AppSettings": {
+        "OrginizationName": "ECS",
+        "ApplicationName": "PriMat Team",
+        "OrginizationDormain": ""
+      }
+    }
+  ],
+  "QPushButtonGroup": [
+    {
+      "Buttons": [
+        "classBtn",
+        "analysisBtn",
+        "settingsBtn"
+      ],
+      "ActiveButton": "classBtn",
+      "Style": [
+        {
+          "Active": "QPushButton{background-color: THEME.COLOR_BACKGROUND_2;}",
+          "NotActive": "QPushButton{background-color: transparent; ;}"
+        }
+      ]
+    }
+  ],
+  "QCustomSlideMenu": [
+    {
+      "name": "leftMenu",
+      "defaultSize": [
+        {
+          "width": 63,
+          "height": "parent"
+        }
+      ],
+      "collapsedSize": [
+        {
+          "width": 63,
+
+          "height": "parent"
+        }
+      ],
+      "expandedSize": [
+        {
+          "width": 250,
+          "height": "parent"
+        }
+      ],
+      "toggleButton": [
+        {
+          "buttonName": "menuButton",
+          "icons": [
+            {
+              "whenMenuIsCollapsed": "Qss/icons/Icons/feather/align-justify.png",
+              "whenMenuIsExpanded": "Qss/icons/Icons/feather/arrow-left-circle.png"
+            }
+          ]
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 280,
+          "animationEasingCurve": "Linear"
+        }
+      ]
+    }
+  ],
+  "QCustomQStackedWidget": [
+    {
+      "name": "stackedWidget",
+      "transitionAnimation": [
+        {
+          "fade": [
+            {
+              "active": true,
+              "duration": 220,
+              "easingCurve": "InSine"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
