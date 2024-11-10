@@ -32,6 +32,7 @@ https://drive.google.com/drive/folders/1zOB--4MJkA5IubsTXLgKbP0Be7s7PRSj?usp=sha
 
 ### Инструкция для запуска exe
 Для запуска скомпилированного приложения переходим по ссылке на гугл диск: https://drive.google.com/drive/folders/1zOB--4MJkA5IubsTXLgKbP0Be7s7PRSj?usp=sharing
+Файл называется PriMat_v2.zip
 Далее скачиваем zip файл, разархивируем его и запускаем ECS.exe
 После этого выбираем edf файл с вашего устройства и запускаем модель
 В течении 1-3 минут вы сможете скачать размеченный edf файл, который можно открыть в браузере для просмотра edf файлов.
