@@ -28,7 +28,7 @@
 
 
 ### Видео работы exe файла
-https://drive.google.com/drive/folders/16mlK_FbV2IfQ48bPrKAlEucOM8zcNkGd
+https://drive.google.com/drive/folders/1zOB--4MJkA5IubsTXLgKbP0Be7s7PRSj?usp=sharing
 
 ### Инструкция для запуска exe
 Для запуска скомпилированного приложения переходим по ссылке на гугл диск: https://drive.google.com/drive/folders/1zOB--4MJkA5IubsTXLgKbP0Be7s7PRSj?usp=sharing
